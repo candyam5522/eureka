@@ -42,5 +42,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.0.xsd">
     <include file="${project.build.directory}/classes/dbmigration/changelog-master.xml"/>
+    <include file="${project.build.directory}/eureka-config/dbmigration/changelog-performance-testing.xml"/>
+    <include file="${project.build.directory}/eureka-config/dbmigration/changelog-single-child-performance-testing.xml"/>
     <include file="${project.build.directory}/eureka-config/dbmigration/tomcat7-run-inserts-changelog.xml"/>
 </databaseChangeLog>

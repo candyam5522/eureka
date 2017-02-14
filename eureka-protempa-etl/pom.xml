@@ -277,6 +277,11 @@
 			<groupId>org.eurekaclinical</groupId>
 			<artifactId>eurekaclinical-patient-set-client</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>org.liquibase</groupId>
+			<artifactId>liquibase-core</artifactId>
+                        <version>3.5.3</version>
+		</dependency>                
 	</dependencies>
 </project>
 
